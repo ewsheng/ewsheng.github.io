@@ -10,7 +10,7 @@ minimal_mistakes_skin    : "air" # "air", "contrast", "dark", "dirt", "mint", "s
 # Site Settings
 locale                   : "en"
 title                    : "Emily Sheng"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Emily Sheng"
 description              : ""
 url                      : "https://ewsheng.github.io"
@@ -84,8 +84,8 @@ analytics:
 # Site Author
 author:
   name             : "Emily Sheng"
-  avatar           : "/assets/images/profile_square.jpg"
-  bio              : "PhD student in natural language processing"
+  avatar           : "/assets/images/profile_big_square.jpg"
+  bio              : "Ph.D. student in natural language processing"
   location         : "Los Angeles"
   email            :
   uri              :
@@ -118,6 +118,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - pdfs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -241,13 +242,22 @@ compress_html:
 # Defaults
 defaults:
   # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: true
+#      read_time: true
+#      comments: # true
+#      share: true
+#      related: true
+  # _pages
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+
+

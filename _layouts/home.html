@@ -1,11 +1,14 @@
 ---
-layout: archive
+layout: single
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h3>About Me</h3>
+<p>
+  I am a third-year Ph.D. student in Computer Science at the University of Southern California, advised by Dr. Prem Natarajan at the Information Sciences Institute. I am excited about problems in natural language processing, such as information extraction, named entity recognition, and how we can organize scientific literature to facilitate learning.
+</p>
+<p>
+  Prior to entering the Ph.D. program at USC, I studied Computer Science and Cognitive Science at UC Berkeley and worked at a start-up in San Francisco.
+</p>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
 
-{% include paginator.html %}
+
