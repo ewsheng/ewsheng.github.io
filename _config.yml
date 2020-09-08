@@ -60,8 +60,8 @@ yandex_site_verification :
 naver-site-verification  :
 
 # Social Sharing
-twitter: "ewsheng"
-  username               :
+twitter:
+  username               : "ewsheng"
 facebook:
   username               :
   app_id                 :
